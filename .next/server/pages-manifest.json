@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.js",
-  "/contact": "pages/contact.js",
-  "/": "pages/index.js",
-  "/pvc-spanish-tile": "pages/pvc-spanish-tile.js"
+  "/": "pages/index.js"
 }
