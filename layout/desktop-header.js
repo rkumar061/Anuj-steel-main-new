@@ -8,7 +8,7 @@ import {
   Vk,
 } from "../public/svg/social/IconSocial";
 
-const background = "img/call.png";
+const background = "img/callico.png";
 
 export default function DesktopHeader() {
   const [isActive, setActive] = useState(false);
@@ -22,7 +22,7 @@ export default function DesktopHeader() {
         <div className="industify_fn_toppanel">
           <div className="left_panel">
             <div className="info">
-              <Link href="tel:07787744741">
+              <Link href="tel:9405229558">
                 <a>(0940) 522 - 955 -8</a>
               </Link>
             </div>
@@ -115,12 +115,12 @@ export default function DesktopHeader() {
                       </li>
                       <li>
                         <Link href="/oralium-arst">
-                          <a>ORALIUM ALUMNIUM ROOFING SHEET & TILE</a>
+                          <a>ALUMNIUM ROOFING SHEET & TILE</a>
                         </Link>
                       </li>
                       <li>
                         <Link href="/sandwich-puf-panel">
-                          <a>SANDWICH PUF PANEL (ROOF & WALL)</a>
+                          <a>SANDWICH PUF PANEL (ROOF, WALL & CEILING)</a>
                         </Link>
                       </li>
                       <li>
@@ -162,7 +162,7 @@ export default function DesktopHeader() {
                   </li>
                   <li>
                     <Link href="/service-single-7">
-                      <a>RUN WATER GUTTER & SOLUTION</a>
+                      <a>RAIN WATER GUTTER & SOLUTION</a>
                     </Link>
                     <ul className="sub-menu">
                       <li>
@@ -174,7 +174,7 @@ export default function DesktopHeader() {
                   </li>
                   <li>
                     <Link href="/service-single-6">
-                      <a>INTERIOIR / EXTERIOR CELING PRODUCTS</a>
+                      <a>INTERIOR / EXTERIOR CELING</a>
                     </Link>
                     <ul className="sub-menu">
                       <li>
@@ -189,7 +189,7 @@ export default function DesktopHeader() {
                       </li>
                       <li>
                         <Link href="/acrylic-sheet">
-                          <a>ACRALIC SHEET</a>
+                          <a>ACRYLIC SHEET</a>
                         </Link>
                       </li>
                       <li>
@@ -232,9 +232,38 @@ export default function DesktopHeader() {
                     </Link>
                     <ul className="sub-menu">
                       <li>
-                        <Link href="/404">
+                        {/* <Link href="/screws">
                           <a>SDS SCREWS & FASTNERS</a>
-                        </Link>
+                        </Link> */}
+                        <a>SCREWS</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <Link href="/alutapp">
+                              <a>ALUTAPP</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/metapp">
+                              <a>METAPP</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/polytapp">
+                              <a>POLYTAPP</a>
+                            </Link>
+                          </li>
+
+                          <li>
+                            <Link href="/fibretapp">
+                              <a>FIBRETAPP</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/duotapp">
+                              <a>DUOTAPP</a>
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
                       <li>
                         <Link href="/itav">
@@ -248,7 +277,7 @@ export default function DesktopHeader() {
                       </li>
                       <li>
                         <Link href="/accessories">
-                          <a>ACCESSORIES</a>
+                          <a>METAL ACCESSORIES</a>
                         </Link>
                       </li>
                     </ul>
@@ -269,11 +298,11 @@ export default function DesktopHeader() {
                                     <li><Link href="/protected"><a>Protected Page</a></Link></li>
                                 </ul>
                             </li> */}
-              <li>
+              {/* <li>
                 <Link href="/downloads">
                   <a>Downloads</a>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact">
                   <a>Contact Us</a>
@@ -305,7 +334,7 @@ export default function DesktopHeader() {
                   }}
                 ></div>
                 <p>
-                  <span>Toll Free:</span> (0940) 522 - 955 -8
+                  <span>Call us:</span> (0940) 522 - 955 -8
                 </p>
               </div>
             </div>

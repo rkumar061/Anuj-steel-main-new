@@ -1,5 +1,10 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/alutapp": "pages/alutapp.js",
+  "/fibretapp": "pages/fibretapp.js",
+  "/metapp": "pages/metapp.js",
+  "/duotapp": "pages/duotapp.js",
+  "/polytapp": "pages/polytapp.js"
 }

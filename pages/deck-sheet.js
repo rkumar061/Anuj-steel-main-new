@@ -254,13 +254,25 @@ export default function ServiceSingle1() {
                         <li>
                           <div className="item">
                             <Check className="fn__svg" />
-                            <p>Steel</p>
+                            <p>High Rise Building</p>
                           </div>
                         </li>
                         <li>
                           <div className="item">
                             <Check className="fn__svg" />
-                            <p>Power</p>
+                            <p>Apartments</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="item">
+                            <Check className="fn__svg" />
+                            <p>Ware Houses </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="item">
+                            <Check className="fn__svg" />
+                            <p>Infrastructures </p>
                           </div>
                         </li>
                         <li>
@@ -269,40 +281,16 @@ export default function ServiceSingle1() {
                             <p>Automobiles</p>
                           </div>
                         </li>
-                        <li>
-                          <div className="item">
-                            <Check className="fn__svg" />
-                            <p>IT</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="item">
-                            <Check className="fn__svg" />
-                            <p>Pharma</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="item">
-                            <Check className="fn__svg" />
-                            <p>Oil & Gas</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="item">
-                            <Check className="fn__svg" />
-                            <p>Infrastructure Sectors etc.</p>
-                          </div>
-                        </li>
                       </ul>
                     </div>
                   </div>
 
-                  <p style={{ fontSize: "18px", marginTop: "-20px" }}>
+                  {/* <p style={{ fontSize: "18px", marginTop: "-20px" }}>
                     Also the traditional Cold storage sectors & Modern Cold
                     chain demands including Fruits, Vegetables, Dairy & Allied
                     Products, Meat & Poultry, Sea Food, Food Processing,
                     Beverages, Cold logistics, etc.
-                  </p>
+                  </p> */}
 
                   <br />
                   <h3>Accessories</h3>

@@ -1,109 +1,161 @@
-import React from 'react'
-import Services from '../components/Home/HomeServices'
-import Slider from '../components/Home/HomeSlider'
-import Layout from '../layout/layout'
-import Title from '../layout/title'
-import Link from 'next/link'
-import { Arrow_r, Certificate, Checked, Quotes, Stars } from '../public/svg/icon'
+import React from "react";
+import Services from "../components/Home/HomeServices";
+import Slider from "../components/Home/HomeSlider";
+import Layout from "../layout/layout";
+import Title from "../layout/title";
+import Link from "next/link";
+import {
+  Arrow_r,
+  Certificate,
+  Checked,
+  Quotes,
+  Stars,
+} from "../public/svg/icon";
 
-const right = "/img/about/right.jpg"
-const rightImage = "/img/service/right-image.jpg"
-const testimonial = "/img/testimonial/bg.jpg"
-const portfolio1 = "/img/portfolio/1.jpg"
-const portfolio2 = "/img/portfolio/2.jpg"
-const portfolio3 = "/img/portfolio/3.jpg"
-const portfolio4 = "/img/portfolio/4.jpg"
-const map = "/img/blog/map.png"
-const blog1 = "/img/blog/1.jpg"
-const blog2 = "/img/blog/2.jpg"
-const blog3 = "/img/blog/3.jpg"
-
+const right = "/img/about/right.jpg";
+const rightImage = "/img/service/right-image.jpg";
+const testimonial = "/img/testimonial/bg.jpg";
+const portfolio1 = "/img/portfolio/1.jpg";
+const portfolio2 = "/img/portfolio/2.jpg";
+const portfolio3 = "/img/portfolio/3.jpg";
+const portfolio4 = "/img/portfolio/4.jpg";
+const map = "/img/blog/map.png";
+const blog1 = "/img/blog/1.jpg";
+const blog2 = "/img/blog/2.jpg";
+const blog3 = "/img/blog/3.jpg";
 
 export default function Index() {
-	return (
-		<>
-			<Title title='Home Alpha' />
-			<Layout className={"transdark"}>
-				<Title title='Home Delta' />
+  return (
+    <>
+      <Title title="Home Alpha" />
+      <Layout className={"transdark"}>
+        <Title title="Home Delta" />
 
-				<Slider />
-				{/* <!-- Principles Modern --> */}
-				<div className="fn_cs_principles_modern">
-					<div className="container">
-						<div className="inner">
-							<div className="shape"><span className="shape1"></span><span className="shape2"></span></div>
-							<ul className="fn_cs_miniboxes">
-								<li>
-									<div className="item">
-										<div className="title_holder">
-											<Link href="/principles"><a></a></Link>
-											<h3>Honesty</h3>
-											<p>Be humble in all dealings with our partners, clients and team members. True wisdom and understanding belong to the humble.</p>
-											<span className="icon">
-												<Arrow_r className="fn__svg" />
-											</span>
-										</div>
-										<div className="number_holder">01</div>
-									</div>
-								</li>
-								<li>
-									<div className="item">
-										<div className="title_holder">
-											<Link href="/principles"><a></a></Link>
-											<h3>Passion</h3>
-											<p>Success is when we can achieve results in the things we are passionate about and feel as though we are making a difference.</p>
-											<span className="icon">
-												<Arrow_r className="fn__svg" />
-											</span>
-										</div>
-										<div className="number_holder">02</div>
-									</div>
-								</li>
-								<li>
-									<div className="item">
-										<div className="title_holder">
-											<Link href="/principles"><a></a></Link>
-											<h3>Quality</h3>
-											<p>We ensure that all projects are done with utmost professionalism using quality materials while offering clients the support and accessibility.</p>
-											<span className="icon">
-												<Arrow_r className="fn__svg" />
-											</span>
-										</div>
-										<div className="number_holder">03</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				{/* <!-- /Principles Modern --> */}
+        <Slider />
+        {/* <!-- Principles Modern --> */}
+        <div className="fn_cs_principles_modern">
+          <div className="container">
+            <div className="inner">
+              <div className="shape">
+                <span className="shape1"></span>
+                <span className="shape2"></span>
+              </div>
+              <ul className="fn_cs_miniboxes">
+                <li>
+                  <div className="item">
+                    <div className="title_holder">
+                      <Link href="/principles">
+                        <a></a>
+                      </Link>
+                      <h3>Honesty</h3>
+                      <p>
+                        Be humble in all dealings with our partners, clients and
+                        team members. True wisdom and understanding belong to
+                        the humble.
+                      </p>
+                      <span className="icon">
+                        <Arrow_r className="fn__svg" />
+                      </span>
+                    </div>
+                    <div className="number_holder">01</div>
+                  </div>
+                </li>
+                <li>
+                  <div className="item">
+                    <div className="title_holder">
+                      <Link href="/principles">
+                        <a></a>
+                      </Link>
+                      <h3>Passion</h3>
+                      <p>
+                        Success is when we can achieve results in the things we
+                        are passionate about and feel as though we are making a
+                        difference.
+                      </p>
+                      <span className="icon">
+                        <Arrow_r className="fn__svg" />
+                      </span>
+                    </div>
+                    <div className="number_holder">02</div>
+                  </div>
+                </li>
+                <li>
+                  <div className="item">
+                    <div className="title_holder">
+                      <Link href="/principles">
+                        <a></a>
+                      </Link>
+                      <h3>Quality</h3>
+                      <p>
+                        We ensure that all projects are done with utmost
+                        professionalism using quality materials while offering
+                        clients the support and accessibility.
+                      </p>
+                      <span className="icon">
+                        <Arrow_r className="fn__svg" />
+                      </span>
+                    </div>
+                    <div className="number_holder">03</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        {/* <!-- /Principles Modern --> */}
 
-
-				{/* <!-- About Section --> */}
-				<div className="about_section">
-
-					{/* <!-- About Shortcode --> */}
-					<div className="fn_cs_about">
-						<div className="container">
-							<div className="a_inner">
-								<div className="leftpart">
-									<div className="title_holder">
-										<h3 className="title" style={{fontSize:"3rem"}}>We are <br />
-											Anuj Steel Centre</h3>
-										<p>Anuj Steel Centre has carved a niche in the roofing market. We are the leading authorized Distributors in Kolhapur for many renowned brands like Georoof, Bhushan Power & Steel, Essar (Colour Coated Sheet & Deck Sheet) VMI Plastics Ltd. (Polycarbonate Sheet & Rolls), Euro Guard uPVC Rain Water Gutter, Spanish Tile Sheet, VIVA (Aluminium Composite Panel), Oralium (Aluminium Sheet & Coils), Roofex & Corroshield (SDS Screw), Durastrip (Bitumen Tape) to name a few.
-												<br /><br />
-											Vast experience & in-depth knowledge of all types of roofing products, that suit the requirements of our clients, we suggest not only the appropriate material but also provide complete roofing solution to our clients with cost effective rates. Our profile sheets are designed keeping in mind all the elements & creating trust with superior products services & ideas not only in Kolhapur but also in rest of Maharashtra, Goa & Karnataka.
-											<br /><br />
-											With our extensive dealer network, ex. Stock availability, prime location office, manufacturing unit & warehouse with easy transportation facility, experienced team value added services like Pre-sale & Post-sale services. We have covered over more than 5 cr. Sq. ft. of roofing and cladding with over more than 5000 projects completed in the past 3 decades which reflected in the long list of our satisfied customers from various segments of the industry.</p>
-											<br />
-									</div>
-									<div className="sign_holder">
-										<h3 className="name">Anuj Steel</h3>
-										<p className="occ">Propritor</p>
-									</div>
-								</div>
-								<div className="rightpart">
-									{/* <div className="r_inner" id="scene">
+        {/* <!-- About Section --> */}
+        <div className="about_section">
+          {/* <!-- About Shortcode --> */}
+          <div className="fn_cs_about">
+            <div className="container">
+              <div className="a_inner">
+                <div className="leftpart">
+                  <div className="title_holder">
+                    <h3 className="title" style={{ fontSize: "3rem" }}>
+                      We are <br />
+                      Anuj Steel Centre
+                    </h3>
+                    <p>
+                      Anuj Steel Centre has carved a niche in the roofing
+                      market. We are the leading authorized Distributors in
+                      Kolhapur for many renowned brands like Georoof, Bhushan
+                      Power & Steel, Essar (Colour Coated Sheet & Deck Sheet)
+                      VMI Plastics Ltd. (Polycarbonate Sheet & Rolls), Euro
+                      Guard uPVC Rain Water Gutter, Spanish Tile Sheet, VIVA
+                      (Aluminium Composite Panel), Oralium (Aluminium Sheet &
+                      Coils), Roofex & Corroshield (SDS Screw), Durastrip
+                      (Bitumen Tape) to name a few.
+                      <br />
+                      <br />
+                      Vast experience & in-depth knowledge of all types of
+                      roofing products, that suit the requirements of our
+                      clients, we suggest not only the appropriate material but
+                      also provide complete roofing solution to our clients with
+                      cost effective rates. Our profile sheets are designed
+                      keeping in mind all the elements & creating trust with
+                      superior products services & ideas not only in Kolhapur
+                      but also in rest of Maharashtra, Goa & Karnataka.
+                      <br />
+                      <br />
+                      With our extensive dealer network, ex. Stock availability,
+                      prime location office, manufacturing unit & warehouse with
+                      easy transportation facility, experienced team value added
+                      services like Pre-sale & Post-sale services. We have
+                      covered over more than 5 cr. Sq. ft. of roofing and
+                      cladding with over more than 5000 projects completed in
+                      the past 3 decades which reflected in the long list of our
+                      satisfied customers from various segments of the industry.
+                    </p>
+                    <br />
+                  </div>
+                  <div className="sign_holder">
+                    <h3 className="name">Anuj Steel</h3>
+                    <p className="occ">Proprietor</p>
+                  </div>
+                </div>
+                <div className="rightpart">
+                  {/* <div className="r_inner" id="scene">
 										<div className="layer border" data-depth="0.3">
 											<span className="span1"></span>
 											<span className="span2"></span>
@@ -117,39 +169,84 @@ export default function Index() {
 											<img src="img/thumb/500-560.jpg" alt="" />
 										</div>
 									</div> */}
-									<div className="r_inner" id="scene" style={{ "transform": "translate3d(0px, 0px, 0px)", "transformStyle": "preserve-3d", "backfaceVisibility": "hidden" }}>
-										<div className="layer border" data-depth="0.3" style={{ "position": "relative", "display": "block", "left": "0px", "top": "0px", "transform": "translate3d(21.2782px, -19.0075px, 0px)", "transformStyle": "preserve-3d", "backfaceVisibility": "hidden" }}>
-											<span className="span1"></span>
-											<span className="span2"></span>
-											<img src="img/thumb/500-560.jpg" alt="" />
-										</div>
-										<div className="img_holder layer" data-depth="0.5" style={{ "position": "absolute", "display": "block", "left": "0px", "top": "0px", "transformStyle": "preserve-3d", "backfaceVisibility": "hidden", "transform": "translate3d(35.4636px, -31.6792px, 0px)" }}>
-											<img src="img/thumb/500-560.jpg" alt="" />
-											<div className="abs_img" data-bg-img="img/about/right.jpg" style={{ "backgroundImage": "url(img/about/right.jpg)" }}></div>
-										</div>
-										<div className="dots layer" data-switch="disable" data-depth="0.9" style={{ "position": "absolute", "display": "block", "left": "0px", "top": "0px", "transform": "translate3d(63.8345px, -57.0226px, 0px)", "transformStyle": "preserve-3d", "backfaceVisibility": "hidden" }}>
-											<img src="img/thumb/500-560.jpg" alt="" />
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					{/* <!-- /About Shortcode --> */}
+                  <div
+                    className="r_inner"
+                    id="scene"
+                    style={{
+                      transform: "translate3d(0px, 0px, 0px)",
+                      transformStyle: "preserve-3d",
+                      backfaceVisibility: "hidden",
+                    }}
+                  >
+                    <div
+                      className="layer border"
+                      data-depth="0.3"
+                      style={{
+                        position: "relative",
+                        display: "block",
+                        left: "0px",
+                        top: "0px",
+                        transform: "translate3d(21.2782px, -19.0075px, 0px)",
+                        transformStyle: "preserve-3d",
+                        backfaceVisibility: "hidden",
+                      }}
+                    >
+                      <span className="span1"></span>
+                      <span className="span2"></span>
+                      <img src="img/thumb/500-560.jpg" alt="" />
+                    </div>
+                    <div
+                      className="img_holder layer"
+                      data-depth="0.5"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        left: "0px",
+                        top: "0px",
+                        transformStyle: "preserve-3d",
+                        backfaceVisibility: "hidden",
+                        transform: "translate3d(35.4636px, -31.6792px, 0px)",
+                      }}
+                    >
+                      <img src="img/thumb/500-560.jpg" alt="" />
+                      <div
+                        className="abs_img"
+                        data-bg-img="img/about/right.jpg"
+                        style={{ backgroundImage: "url(img/about/right.jpg)" }}
+                      ></div>
+                    </div>
+                    <div
+                      className="dots layer"
+                      data-switch="disable"
+                      data-depth="0.9"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        left: "0px",
+                        top: "0px",
+                        transform: "translate3d(63.8345px, -57.0226px, 0px)",
+                        transformStyle: "preserve-3d",
+                        backfaceVisibility: "hidden",
+                      }}
+                    >
+                      <img src="img/thumb/500-560.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- /About Shortcode --> */}
+        </div>
+        {/* <!-- /About Section --> */}
 
-				</div>
-				{/* <!-- /About Section --> */}
+        <Services />
 
+        {/* <!-- Service Section -->    */}
+        {/* <div className="service_section"> */}
 
-				<Services />
-
-
-
-				{/* <!-- Service Section -->    */}
-				{/* <div className="service_section"> */}
-
-					{/* <!-- About with Rating Shortcode --> */} 
-					{/* <div className="fn_cs_about_with_rating">
+        {/* <!-- About with Rating Shortcode --> */}
+        {/* <div className="fn_cs_about_with_rating">
 						<div className="container">
 							<div className="awr_inner">
 								<div className="left_part">
@@ -235,14 +332,13 @@ export default function Index() {
 							</div>
 						</div>
 					</div> */}
-					{/* <!-- /About with Rating Shortcode --> */}
+        {/* <!-- /About with Rating Shortcode --> */}
 
-				{/* </div> */}
-				{/* <!-- /Service Section --> */}
+        {/* </div> */}
+        {/* <!-- /Service Section --> */}
 
-
-				{/* <!-- Call to Action --> */}
-				{/* <div className="fn_cs_call_to_action">
+        {/* <!-- Call to Action --> */}
+        {/* <div className="fn_cs_call_to_action">
 					<div className="container">
 						<div className="cta_holder">
 							<div className="title_holder">
@@ -255,15 +351,15 @@ export default function Index() {
 						</div>
 					</div>
 				</div> */}
-				{/* <!-- /Call to Action --> */}
+        {/* <!-- /Call to Action --> */}
 
-				{/* <!-- Testimonial Section --> */}
-				{/* <div className="testimonial_section" style={{ "backgroundImage": `url(${testimonial})` }}>
+        {/* <!-- Testimonial Section --> */}
+        {/* <div className="testimonial_section" style={{ "backgroundImage": `url(${testimonial})` }}>
 
 					<div className="overlay"></div> */}
 
-					{/* <!-- Single Testimonial Shortcode --> */}
-					{/* <div className="fn_cs_single_testimonial">
+        {/* <!-- Single Testimonial Shortcode --> */}
+        {/* <div className="fn_cs_single_testimonial">
 						<div className="container">
 							<div className="inner">
 								<Quotes className="fn__svg" />
@@ -275,14 +371,13 @@ export default function Index() {
 							</div>
 						</div>
 					</div> */}
-					{/* <!-- /Single Testimonial Shortcode --> */}
+        {/* <!-- /Single Testimonial Shortcode --> */}
 
-				{/* </div> */}
-				{/* <!-- /Testimonial Section --> */}
+        {/* </div> */}
+        {/* <!-- /Testimonial Section --> */}
 
-
-				{/* <!-- Project Sticky Full --> */}
-				{/* <div className="fn_cs_project_sticky_full">
+        {/* <!-- Project Sticky Full --> */}
+        {/* <div className="fn_cs_project_sticky_full">
 					<div className="inner">
 						<div className="left_part">
 							<div className="fn_cs_sticky_section">
@@ -386,26 +481,25 @@ export default function Index() {
 
 					</div>
 				</div> */}
-				{/* <!-- /Project Sticky Full --> */}
+        {/* <!-- /Project Sticky Full --> */}
 
-
-				{/* <!-- Blog Section --> */}
-				{/* <div className="blog_section">
+        {/* <!-- Blog Section --> */}
+        {/* <div className="blog_section">
 
 					<div className="overlay" style={{ "backgroundImage": `url(${map})` }}></div> */}
 
-					{/* <!-- Main Title --> */}
-					{/* <div className="fn_cs_main_title">
+        {/* <!-- Main Title --> */}
+        {/* <div className="fn_cs_main_title">
 						<div className="container">
 							<div className="title_holder">
 								<h3>Thoughts &amp; Experiments</h3>
 							</div>
 						</div>
 					</div> */}
-					{/* <!-- /Main Title --> */}
+        {/* <!-- /Main Title --> */}
 
-					{/* <!-- Triple Blog Modern Shortcode --> */}
-					{/* <div className="fn_cs_triple_blog_modern fn_alpha">
+        {/* <!-- Triple Blog Modern Shortcode --> */}
+        {/* <div className="fn_cs_triple_blog_modern fn_alpha">
 						<div className="container">
 							<div className="inner">
 
@@ -472,13 +566,11 @@ export default function Index() {
 							</div>
 						</div>
 					</div> */}
-					{/* <!-- /Triple Blog Modern Shortcode --> */}
+        {/* <!-- /Triple Blog Modern Shortcode --> */}
 
-				{/* </div> */}
-				{/* <!-- /Blog Section --> */}
-
-			</Layout>
-
-		</>
-	)
+        {/* </div> */}
+        {/* <!-- /Blog Section --> */}
+      </Layout>
+    </>
+  );
 }
